@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/github"
+        android:title="Github"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/google"
+        android:title="Google"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/gmail"
+        android:title="Gmail"
+        android:visible="false"/>
+
+    <item
+        android:id="@+id/facebook"
+        android:title="Facebook"
+        android:visible="false"/>
+</menu>

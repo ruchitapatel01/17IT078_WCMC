@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/p1"
+            android:title="Practical - 1" />
+        <item
+            android:id="@+id/p2"
+            android:title="Practical - 2" />
+        <item
+            android:id="@+id/p3"
+            android:title="Practical - 3" />
+        <item
+            android:id="@+id/p4"
+            android:title="Practical - 4" />
+        <item
+            android:id="@+id/p5"
+            android:title="Practical - 5" />
+        <item
+            android:id="@+id/p6"
+            android:title="Practical - 6" />
+        <item
+            android:id="@+id/p7"
+            android:title="Practical - 7" />
+        <item
+            android:id="@+id/p9"
+            android:title="Practical - 9" />
+        <item
+            android:id="@+id/p10"
+            android:title="Practical - 10" />
+        <item
+            android:id="@+id/p12"
+            android:title="Practical - 12" />
+        <item
+            android:id="@+id/p13"
+            android:title="Practical - 13" />
+    </group>
+
+</menu>

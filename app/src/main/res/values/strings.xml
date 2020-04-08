@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">17IT078_WCMC</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Ruchita Patel</string>
+    <string name="nav_header_subtitle">17it078@charusat.edu.in</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="colors">
+        <item> Silver </item>
+        <item> White </item>
+        <item> Black </item>
+        <item> Blue </item>
+        <item> Red </item>
+        <item> Green </item>
+    </string-array>
+
+</resources>

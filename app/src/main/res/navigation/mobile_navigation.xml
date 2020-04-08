@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/p1">
+
+    <fragment
+        android:id="@+id/p1"
+        android:name="com.example.a17it078_wcmc.Fragment.p1"
+        tools:layout="@layout/fragment_p1" />
+
+    <fragment
+        android:id="@+id/p2"
+        android:name="com.example.a17it078_wcmc.Fragment.p2"
+        tools:layout="@layout/fragment_p2" />
+
+    <fragment
+        android:id="@+id/p3"
+        android:name="com.example.a17it078_wcmc.Fragment.p3"
+        tools:layout="@layout/fragment_p3" />
+
+    <fragment
+        android:id="@+id/p4"
+        android:name="com.example.a17it078_wcmc.Fragment.p4"
+        tools:layout="@layout/fragment_p4" />
+
+    <fragment
+        android:id="@+id/p5"
+        android:name="com.example.a17it078_wcmc.Fragment.p5.p5"
+        tools:layout="@layout/fragment_p5" />
+
+    <fragment
+        android:id="@+id/p6"
+        android:name="com.example.a17it078_wcmc.Fragment.p6"
+        tools:layout="@layout/fragment_p6" />
+
+    <fragment
+        android:id="@+id/p7"
+        android:name="com.example.a17it078_wcmc.Fragment.p7"
+        tools:layout="@layout/fragment_p7" />
+
+    <fragment
+        android:id="@+id/p9"
+        android:name="com.example.a17it078_wcmc.Fragment.p9"
+        tools:layout="@layout/fragment_p9" />
+
+    <fragment
+        android:id="@+id/p10"
+        android:name="com.example.a17it078_wcmc.Fragment.p10.p10"
+        tools:layout="@layout/fragment_p10" />
+
+    <fragment
+        android:id="@+id/p13"
+        android:name="com.example.a17it078_wcmc.Fragment.p13.p13"
+        tools:layout="@layout/fragment_p13" />
+
+    <fragment
+        android:id="@+id/p12"
+        android:name="com.example.a17it078_wcmc.Fragment.p12"
+        tools:layout="@layout/fragment_p12" />
+</navigation>

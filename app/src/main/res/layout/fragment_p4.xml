@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/silver">
+
+    <TextView
+        android:id="@+id/text_tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Temperature Converter"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:layout_marginTop="70dp"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/p4_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Temperature"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/p4_cf"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@color/blue"
+        android:text="Celsius to Fahrenheit"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/p4_fc"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/blue"
+        android:text="Fahrenheit to Celsius"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/p4_rslt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/black"/>
+</LinearLayout>
